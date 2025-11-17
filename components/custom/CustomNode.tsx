@@ -34,16 +34,16 @@ export default function CustomNode({ data }: NodeProps) {
           </SheetDescription>
         </SheetHeader>
         {/* Custom content goes here */}
-        <div className="mt-4">
+        {/* <div className="mt-4">
           <p>
             <b>Node ID:</b> {data?.id as string || "Unknown"}
           </p>
           <p>
             <b>Description:</b> {data?.description as string || "No description."}
           </p>
-        </div>
+        </div> */}
         <SheetClose asChild>
-          <button className="mt-6 bg-primary text-primary-foreground rounded px-4 py-2">
+          <button className="mt-6 cursor-pointer m-auto bg-primary text-primary-foreground rounded px-4 py-2">
             Close
           </button>
         </SheetClose>
